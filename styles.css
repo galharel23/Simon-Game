@@ -1,0 +1,53 @@
+body
+{
+    background-color:midnightblue;
+    text-align: center;
+}
+h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+h2
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.pressed 
+{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.game-over 
+{
+    background-color: red;
+    opacity: 0.8;
+}
+.simon
+{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 15%;
+    border-color: black;
+    border-width: 7.5px;
+}
+#red
+{
+    background-color: red;
+}
+#green
+{
+    background-color: green;
+}
+#yellow
+{
+    background-color: yellow;
+}
+#blue
+{
+    background-color: blue;
+}
