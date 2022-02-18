@@ -7,10 +7,11 @@ var started = false;
 var level = 0;
 var highScore = 0;
 
-document.addEventListener('touchend', function()
+document.addEventListener('touchstart', function()
 {
     if (!started)
     {
+        alert("touch!!");
         $("h1").text("Level " + level);
         nextSequence();
         started = true;
