@@ -7,6 +7,16 @@ var started = false;
 var level = 0;
 var highScore = 0;
 
+document.addEventListener('touchend', function()
+{
+    if (!started)
+    {
+        $("h1").text("Level " + level);
+        nextSequence();
+        started = true;
+    }
+});
+
 $(document).keypress(function () {
     if (!started){
         $("h1").text("Level " + level);
